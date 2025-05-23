@@ -6,17 +6,36 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "appniubiz",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "NIUBIZ_USER": "integraciones@niubiz.com.pe",
+      "NIUBIZ_PASS": "_7z3@8fF",
+      "NIUBIZ_MERCHANT_ID": "602545705",
+      "router": {},
+      "eas": {
+        "projectId": "fa027613-8745-4ef1-b124-554af1668f79"
+      }
+    },
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alexis12vlo.appniubiz",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.alexis12vlo.appniubiz"
     },
     "web": {
       "bundler": "metro",
@@ -33,7 +52,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
