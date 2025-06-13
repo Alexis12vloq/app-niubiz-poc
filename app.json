@@ -15,6 +15,10 @@
       "NIUBIZ_USER": "integraciones@niubiz.com.pe",
       "NIUBIZ_PASS": "_7z3@8fF",
       "NIUBIZ_MERCHANT_ID": "602545705",
+      "IZIPAY_API_KEY": "VErethUtraQuxas57wuMuquprADrAHAb",
+      "IZIPAY_MERCHANT_CODE": "4004353",
+      "IZIPAY_PUBLIC_KEY":"VErethUtraQuxas57wuMuquprADrAHAb",
+      "IZIPAY_HASH_KEY":"Xom5Hlt9eSWoylYuBrenIbOsTljEdefR",
       "router": {},
       "eas": {
         "projectId": "fa027613-8745-4ef1-b124-554af1668f79"
